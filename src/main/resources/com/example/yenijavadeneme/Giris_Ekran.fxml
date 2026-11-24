@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="750.0" prefWidth="960.0" style="-fx-background-image:url('file:///C:/Users/Egroses/Desktop/Javaproje/YeniJavaDeneme/src/main/resources/com/example/img/giris1.jpg')" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.yenijavadeneme.Giris_EkranControl">
+   <children>
+      <Pane layoutX="230.0" layoutY="98.0" onKeyPressed="#giris_enter" prefHeight="554.0" prefWidth="500.0">
+         <children>
+            <TextField fx:id="kullanici_adi" layoutX="100.0" layoutY="317.0" prefHeight="35.0" prefWidth="300.0" promptText="Kullanıcı Adı">
+               <font>
+                  <Font size="16.0" />
+               </font></TextField>
+            <TextField fx:id="sifre" layoutX="100.0" layoutY="370.0" prefHeight="35.0" prefWidth="300.0" promptText="Şifre">
+               <font>
+                  <Font size="16.0" />
+               </font></TextField>
+            <JFXButton layoutX="130.0" layoutY="422.0" onMouseClicked="#giris_Yap" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #09e2a7;" text="Giriş Yap" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="200.0" layoutY="462.0" onMouseClicked="#iptal" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #09e2a7;" text="İptal" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="275.0" fitWidth="231.0" layoutX="135.0" layoutY="14.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/mona.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="hata" alignment="CENTER" contentDisplay="CENTER" layoutX="115.0" layoutY="504.0" prefHeight="30.0" prefWidth="272.0" textFill="#e41616">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <JFXButton layoutX="270.0" layoutY="422.0" onMouseClicked="#kayit_ol" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #09e2a7;" text="Kayıt Ol" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

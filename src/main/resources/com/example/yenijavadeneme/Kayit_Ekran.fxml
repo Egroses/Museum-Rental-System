@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane onKeyPressed="#kayit_enter" prefHeight="830.0" prefWidth="1000.0" style="-fx-background-image:url('file:///C:/Users/Egroses/Desktop/Javaproje/YeniJavaDeneme/src/main/resources/com/example/img/gogh.jpg')" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.yenijavadeneme.Kayit_EkranControl">
+   <children>
+      <TextField fx:id="ad" layoutX="200.0" layoutY="235.0" prefHeight="30.0" prefWidth="260.0" promptText="Ad">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="soyad" layoutX="540.0" layoutY="235.0" prefHeight="30.0" prefWidth="260.0" promptText="Soyad">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="email" layoutX="200.0" layoutY="315.0" prefHeight="30.0" prefWidth="260.0" promptText="Email">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="referans" layoutX="540.0" layoutY="315.0" prefHeight="30.0" prefWidth="260.0" promptText="Referans Kodu">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="sifre" layoutX="200.0" layoutY="395.0" prefHeight="30.0" prefWidth="260.0" promptText="Şifre">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tsifre" layoutX="540.0" layoutY="395.0" prefHeight="30.0" prefWidth="260.0" promptText="Tekrar Şifre">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="telefon" layoutX="200.0" layoutY="475.0" prefHeight="30.0" prefWidth="260.0" promptText="Telefon Numarası">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="sehir" layoutX="540.0" layoutY="475.0" prefHeight="30.0" prefWidth="260.0" promptText="Şehir">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <JFXButton layoutX="435.0" layoutY="563.0" onMouseClicked="#ol_kayit" prefHeight="40.0" prefWidth="130.0" style="-fx-background-color: #09e2a7;" text="Kayıt Ol" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="30.0" layoutY="30.0" onMouseClicked="#geri" prefHeight="25.0" prefWidth="80.0" style="-fx-background-color: #e7ff2e;" text="❰❰❰ Geri" />
+   </children>
+</AnchorPane>

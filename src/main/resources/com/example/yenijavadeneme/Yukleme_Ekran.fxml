@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.yenijavadeneme.Yukleme_EkranControl">
+   <children>
+      <ImageView fx:id="image" fitHeight="600.0" fitWidth="741.0" pickOnBounds="true">
+         <image>
+            <Image url="@../img/yuklenme.jpg" />
+         </image>
+      </ImageView>
+      <ProgressIndicator layoutX="334.0" layoutY="274.0" prefHeight="60.0" prefWidth="116.0">
+      </ProgressIndicator>
+   </children>
+</AnchorPane>

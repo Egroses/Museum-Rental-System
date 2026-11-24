@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1300.0"
+ style="-fx-background-color: #09a2e7; -fx-background-image:url('file:///C:/Users/Egroses/Desktop/Javaproje/YeniJavaDeneme/src/main/resources/com/example/img/anaarkaplan.jpeg');" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.yenijavadeneme.Ana_EkranControl">
+   <children>
+      <Pane fx:id="pane1" layoutX="200.0" layoutY="100.0" onMouseClicked="#pane_click_1" onMouseEntered="#mouse_enter_1" onMouseExited="#mouse_leave_1" prefHeight="270.0" prefWidth="250.0" style="-fx-background-color: #09e2a7; -fx-background-radius: 6px;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="50.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/page1.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="25.0" layoutY="210.0" prefWidth="200.0" text="Rezervasyon Ara">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="pane4" layoutX="352.0" layoutY="400.0" onMouseClicked="#pane_click_4" onMouseEntered="#mouse_enter_4" onMouseExited="#mouse_leave_4" prefHeight="270.0" prefWidth="250.0" style="-fx-background-color: #09e2a7; -fx-background-radius: 6px;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="50.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/page5.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="25.0" layoutY="210.0" prefWidth="200.0" text="Oturumu Kapat">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="pane3" layoutX="850.0" layoutY="100.0" onMouseClicked="#pane_click_3" onMouseEntered="#mouse_enter_3" onMouseExited="#mouse_leave_3" prefHeight="270.0" prefWidth="250.0" style="-fx-background-color: #09e2a7; -fx-background-radius: 6px;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="50.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/page3.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="25.0" layoutY="210.0" prefWidth="200.0" text="Profilim">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="pane2" layoutX="525.0" layoutY="100.0" onMouseClicked="#pane_click_2" onMouseEntered="#mouse_enter_2" onMouseExited="#mouse_leave_2" prefHeight="270.0" prefWidth="250.0" style="-fx-background-color: #09e2a7; -fx-background-radius: 6px;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="50.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/page2.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="25.0" layoutY="210.0" prefWidth="200.0" text="Rezervasyon Yap">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="pane5" layoutX="697.0" layoutY="400.0" onMouseClicked="#pane_click_5" onMouseEntered="#mouse_enter_5" onMouseExited="#mouse_leave_5" prefHeight="270.0" prefWidth="250.0" style="-fx-background-color: #09e2a7; -fx-background-radius: 6px;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="50.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/page4.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="25.0" layoutY="210.0" prefWidth="200.0" text="Çıkış Yap">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
